@@ -13,8 +13,8 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
 \nI can play music in your group's voice chat
-Maintained by @HEROGAMERS1 ❤
-\nTo add in your group contact us at @LaylaSupport.
+Maintained by @MR_ROYAL_RAJPUT ❤
+\nTo add in your group contact us at @DESIGANG.
 \nHit /help list of available commands.
  </b>""",
       
@@ -23,23 +23,19 @@ Maintained by @HEROGAMERS1 ❤
             [
                 [
                     InlineKeyboardButton(
-                        "🌍 Music World", url="https://t.me/GIRLS_AND_BOYS_CHATTING",
+                        "🌍 Our Chatting Zone", url="https://t.me/desigang",
+                    )
+                ],
+                [
+                  
+                    
+                    InlineKeyboardButton(
+                        "💾 Source code", url="https://github.com/harshraj189/VCPlayBot"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/LaylaSupport"
-                    ),
-                    InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
-                    ),
-                    InlineKeyboardButton(
-                        "💾 Source code", url="https://github.com/QueenArzoo/VCPlayBot"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/VCPlayBot?startgroup=true"
+                        "➕ Add To Your Group ➕", url="https://t.me/Royal_songbot?startgroup=true"
                     ) 
                 ]
             ]
@@ -58,7 +54,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        "🔊 Group", url="https://t.me/Desigang"
                     )
                 ],    
                 [    
@@ -104,7 +100,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/LaylaList"
+                        "🔊 Group", url="https://t.me/Desigang"
                     )
                 ]
             ]
